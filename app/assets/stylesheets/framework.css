@@ -559,8 +559,11 @@ a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
-	width: 100%;
+	width: 300px;
+	margin: 0 auto;
+	bottom: 0;
+	position: relative;
+
 }
 
 .main-navigation ul {
@@ -573,6 +576,10 @@ a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
+}
+
+.main-navigation li > a {
+	padding: 0;
 }
 
 .main-navigation a {
@@ -638,6 +645,7 @@ a:active {
 		display: block;
 	}
 }
+
 
 
 
@@ -708,6 +716,7 @@ a:active {
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
+  
 .column,
 .columns {
   width: 100%;
@@ -826,7 +835,7 @@ body {
   right: 0;
 }
 nav ul{
-  padding: 108px 0;
+  padding: 0;
   text-align: center;
 }
 nav>ul {
@@ -915,4 +924,40 @@ nav>ul li {
   right: 0;
   text-align: center;
   color: #404040;
+}
+
+#header {
+	background-color: #7bc3d1;
+}
+
+.about-color {
+	background-color: #f7484e;
+}
+
+.timeline-color {
+	background-color: #292929;
+}
+
+.contact-color {
+	background-color: #455A64;
+}
+
+.container-left {
+	height: 100%;
+	width: 50%;
+	float: left;
+	/*margin-right: 1.5em;*/
+}
+
+.container-right {
+	height: 100%;
+	flex: 1;
+	float: right;
+	/*margin-right: 1.5em;*/
+}
+
+.wrapper {
+	display: flex;
+	height: 100%;
+	width: 100%;
 }
