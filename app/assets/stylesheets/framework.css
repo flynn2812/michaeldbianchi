@@ -834,6 +834,8 @@ body {
   left: 0;
   right: 0;
 }
+
+
 nav ul{
   padding: 0;
   text-align: center;
@@ -946,6 +948,8 @@ nav>ul li {
 	height: 100%;
 	width: 50%;
 	float: left;
+	position: relative;
+
 	/*margin-right: 1.5em;*/
 }
 
@@ -953,6 +957,7 @@ nav>ul li {
 	height: 100%;
 	flex: 1;
 	float: right;
+	position: relative;
 	/*margin-right: 1.5em;*/
 }
 
@@ -960,4 +965,15 @@ nav>ul li {
 	display: flex;
 	height: 100%;
 	width: 100%;
+}
+
+.section-header {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 30%;
+	margin: 0 auto;
+	width: 300px;
+	text-align: center;
+	color: #FFFFFF;
 }
