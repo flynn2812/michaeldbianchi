@@ -934,8 +934,8 @@ nav>ul li {
 }
 
 #header {
-	background: url("green_hair.jpg");
-  position: relative;
+	background-image: image-url("green_hair.jpg");
+	position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
