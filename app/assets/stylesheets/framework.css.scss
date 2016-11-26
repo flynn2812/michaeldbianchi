@@ -255,7 +255,7 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   font-weight: 300; 
   clear: both;
   font-family: 'Open Sans', sans-serif;
@@ -918,10 +918,6 @@ nav>ul li {
 .nav-links a:hover {
     /*color: #FF3D00;  
     text-shadow: none;*/
-    font-weight: 500;
-    -webkit-transition: all .3s;
-		-moz-transition: all .3s;
-		transition: all .3s;
 }
 
 .nav-links a:after {
@@ -1045,7 +1041,9 @@ nav>ul li {
 .contact-white a {
 	color: #404040 !important;
 }
-
+.about-white h1,h2,h3,h4 {
+	display: inline-block;
+}
 .about-intro {
 	display: inline-block;
 	position: absolute;
@@ -1080,6 +1078,10 @@ nav>ul li {
 	text-align: left;
 }
 
+.timeline-content h1,h2,h3,h4 {
+	display: inline-block;
+}
+
 .timeline-content p {
 	font-size: 1.75em;
 	font-weight: 400;	
@@ -1094,7 +1096,7 @@ nav>ul li {
 	right: 0;
 	margin: 0 15%;
 	text-align: left;
-	top: 20%;
+	top: 15%;
 }
 
 .contact-methods {
@@ -1104,7 +1106,11 @@ nav>ul li {
 	right: 0;
 	margin: 0 15%;
 	text-align: left;
-	top: 40%;
+	top: 30%;
+}
+
+.contact-methods p{
+	display: inline-block;
 }
 
 .contact-form {
@@ -1126,6 +1132,9 @@ nav>ul li {
 	text-align: left;
 	top: 80%;
 }
+.contact-social-icons p {
+	display: inline-block;
+}
 
 .timeline-content p {
 	font-size: 1.75em;
@@ -1136,3 +1145,4 @@ nav>ul li {
 .wrapper .nav-links a {
 	font-weight: 400;
 }
+
