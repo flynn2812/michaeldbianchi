@@ -1062,6 +1062,11 @@ nav>ul li {
 	text-align: left;
 
 }
+
+.about-details {
+	margin: 0 10px;
+}
+
 .about-intro, .about-career p {
 	font-size: 1.75em;
 	font-weight: 400;	
@@ -1146,3 +1151,26 @@ nav>ul li {
 	font-weight: 400;
 }
 
+.fa {
+	margin: 0 5px 0 0;
+}
+
+
+
+.header-icon {
+	font-size: 1.6em !important;
+}
+.header-icon-small {
+	font-size: 1.3em !important;
+}
+
+.text-icon {
+	font-size: 1em !important;
+}
+.text-icon-large {
+	font-size: 1.3em !important;
+}
+
+.inline-block {
+	display: inline-block;
+}
