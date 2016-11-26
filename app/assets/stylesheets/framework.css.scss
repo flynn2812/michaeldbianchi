@@ -560,7 +560,7 @@ a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	width: 300px;
+	width: 400px;
 	margin: 0 auto;
 	bottom: 0;
 	position: relative;
@@ -826,8 +826,24 @@ there.
 
 /* Custom */
 body {
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
 }
+
+.header-name {
+	color: white;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 20%;
+	text-shadow: 0px 0px 5px rgba(80,80,80,1);
+	/*text-shadow: 2px 2px #666666;*/
+}
+.header-name h1 {
+	font-size: 5rem;
+}
+
 .nav-links {
   bottom: 0;
   transition: .4s cubic-bezier(.165,.84,.44,1) .5s;
@@ -849,11 +865,17 @@ nav>ul {
 .nav-links ul li{
   display: inline-block;
   color: inherit;
+  padding: 0 12px 0 12px;
 }
 
 .nav-links li + li:before{
   content: '/';
-  padding: 0 12px 0 9px;
+  font-size: 1.8em;
+  padding: 0 12px 0 12px;
+  position: absolute;
+  left: -16px;
+  line-height: 1.25;
+	text-shadow: 0px 0px 5px rgba(80,80,80,1);
 }
 
 .nav-links a, a:visited, a:hover, a:active, a:visited, li:before{
@@ -884,19 +906,22 @@ nav>ul li {
     position: relative;
     font-size: 1.8em;
     text-shadow: 0px 0px 5px rgba(80,80,80,1);
-    
     -webkit-transition: all 3s;
 	-moz-transition: all 3s;
 	transition: all .3s;
 }
 
-/*.nav-links>li>a:focus, .nav>li>a:hover {
-	background-color: transparent;
-}*/
+.nav-links>li>a:focus, .nav>li>a:hover {
+	background-color: transparent !important;
+}
 
 .nav-links a:hover {
-    color: #FF3D00;  
-    text-shadow: none;
+    /*color: #FF3D00;  
+    text-shadow: none;*/
+    font-weight: 500;
+    -webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		transition: all .3s;
 }
 
 .nav-links a:after {
@@ -906,19 +931,19 @@ nav>ul li {
     width: 0;
     left: 50%;
     bottom: -2px;
-/*    opacity: .9;*/
-/*    background-color: #fff;*/
+    opacity: .9;
+    background-color: #fff;
     
     -webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	transition: all .3s;
+		-moz-transition: all .3s;
+		transition: all .3s;
 }
 
 .nav-links a:hover:after {
     width: 100%;
     left: 0;
-/*    opacity: 1;
-    background-color: #FF3D00;*/
+    opacity: 1;
+    background-color: #FFFFFF;
 }
 .material-icons a {
   color: #404040;
@@ -1005,13 +1030,109 @@ nav>ul li {
 }
 
 .about-white {
-	color: #f7484e;
+	color: #404040;
 }
 
 .timeline-white {
-	color: #292929;
+	color: #404040;
+
 }
 
 .contact-white {
-	color: #455A64;
+	color: #404040;
+}
+
+.contact-white a {
+	color: #404040 !important;
+}
+
+.about-intro {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 15%;
+	top: 20%;
+	text-align: left;
+
+}
+
+.about-career {
+	position: absolute;
+	margin: 0 15%;
+	top: 50%;
+	text-align: left;
+
+}
+.about-intro, .about-career p {
+	font-size: 1.75em;
+	font-weight: 400;	
+	line-height: 1.75em;
+}
+
+.timeline-content {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 15%;
+	top: 20%;
+	text-align: left;
+}
+
+.timeline-content p {
+	font-size: 1.75em;
+	font-weight: 400;	
+	line-height: 1.75em;
+}
+
+
+.contact-blurb {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 15%;
+	text-align: left;
+	top: 20%;
+}
+
+.contact-methods {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 15%;
+	text-align: left;
+	top: 40%;
+}
+
+.contact-form {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 15%;
+	text-align: left;
+	top: 60%;
+}
+
+.contact-social-icons {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 15%;
+	text-align: left;
+	top: 80%;
+}
+
+.timeline-content p {
+	font-size: 1.75em;
+	font-weight: 400;	
+	line-height: 1.75em;
+}
+
+.wrapper .nav-links a {
+	font-weight: 400;
 }
