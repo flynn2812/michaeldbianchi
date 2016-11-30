@@ -419,6 +419,17 @@
 
       });
     }
+    
+    //Custom!!!!//
+    //var downArrow = document.getElementById('down-arrow')
+    //downArrow.onclick = el.moveDown();
+    //$(document).ready(function(){
+    //$('#down-arrow').click(function(){
+    //   el.moveDown();
+    //});
+  //});
+
+    
     return false;
   }
 

@@ -829,23 +829,10 @@ body {
   /*text-transform: lowercase;*/
 }
 
-.header-name {
-	color: white;
-	position: absolute;
-	text-align: center;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-	top: 20%;
-	text-shadow: 0px 0px 5px rgba(80,80,80,1);
-	/*text-shadow: 2px 2px #666666;*/
-}
-.header-name h1 {
-	font-size: 5rem;
-}
+
 
 .nav-links {
-  bottom: 0;
+  bottom: 3%;
   transition: .4s cubic-bezier(.165,.84,.44,1) .5s;
   position: absolute;
   left: 0;
@@ -941,6 +928,28 @@ nav>ul li {
     opacity: 1;
     background-color: #FFFFFF;
 }
+
+.nav-arrow {
+	text-shadow: 0px 0px 5px rgba(80,80,80,1);
+	color: white;
+	opacity: .8;
+	cursor: pointer;
+	display: inline-block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.nav-arrow:hover {
+	text-shadow: 0px 0px 10px rgba(80,80,80,1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .material-icons a {
   color: #404040;
 }
@@ -962,6 +971,23 @@ nav>ul li {
   background-position: center; 
 
 }
+
+.header-name {
+	color: white;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 20%;
+	text-shadow: 0px 0px 5px rgba(80,80,80,1);
+	/*text-shadow: 2px 2px #666666;*/
+}
+.header-name h1 {
+	font-size: 5rem;
+}
+
+
 
 .color-layer {
 	  background-color: #B3E5FC;
@@ -1014,7 +1040,7 @@ nav>ul li {
 	right: 0;
 	top: 40%;
 	margin: 0 auto;
-	width: 50%;
+	width: 70%;
 	text-align: center;
 	color: #FFFFFF;
 
@@ -1083,6 +1109,12 @@ nav>ul li {
 	text-align: left;
 }
 
+.timeline-content a {
+	color: #1976D2;
+	text-shadow: none;
+	padding-left: 2px;
+}
+
 .timeline-content h1,h2,h3,h4 {
 	display: inline-block;
 }
@@ -1090,7 +1122,7 @@ nav>ul li {
 .timeline-content p {
 	font-size: 1.75em;
 	font-weight: 400;	
-	line-height: 1.75em;
+	line-height: 0.75em;
 }
 
 
@@ -1139,12 +1171,6 @@ nav>ul li {
 }
 .contact-social-icons p {
 	display: inline-block;
-}
-
-.timeline-content p {
-	font-size: 1.75em;
-	font-weight: 400;	
-	line-height: 1.75em;
 }
 
 .wrapper .nav-links a {
