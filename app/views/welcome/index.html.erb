@@ -89,10 +89,10 @@
         <div class="about-resume flex-row">
           <div class="btn-floating resume-button">
             <div class="resume-icon">
-              <a class="btn">
-
+              <%= link_to "documents/michaeldbianchi.pdf", :anchor =>"public/documents", :target => '_blank'  do %>
                 <i class="material-icons">file_download</i>
-                
+              <% end %>
+
               </a>
               <p>Download Resume</p>
             </div>
@@ -225,7 +225,8 @@
         </div>
         
         <div class="contact form flex-row">
-          
+        
+
         </div>
           
         <div class="contact-social-icons flex-row">
