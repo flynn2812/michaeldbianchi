@@ -42,8 +42,8 @@
       </div>
       
       <!-- right side (no color) -->
-      <div class="container-right about-white">
-        <div class="about-intro">
+      <div class="container-right about-white flex-box-columns">
+        <div class="about-intro flex-row">
           <i class="fa fa-user header-icon" aria-hidden="true"></i>
           <h3>about me</h3>
           <p>
@@ -54,7 +54,7 @@
           </p>
         </div> <!-- about-intro -->
         
-        <div class="about-career">
+        <div class="about-career flex-row">
           
           <i class="fa fa-address-card-o header-icon" aria-hidden="true"></i>
           <h3>my career</h3><br>
@@ -86,11 +86,15 @@
           
         </div> <!-- about-career -->
         <!-- resume download button -->
-        <div class="about-resume">
-          <div class="button resume-button">
+        <div class="about-resume flex-row">
+          <div class="btn-floating resume-button">
             <div class="resume-icon">
+              <a class="btn">
+
+                <i class="material-icons">file_download</i>
+                
+              </a>
               <p>Download Resume</p>
-              <i class="material-icons">file_download</i>
             </div>
           </div>
         </div>
@@ -104,21 +108,47 @@
   <section id="timeline">
     <div class="wrapper">
       <!-- left side (no color) -->
-      <div class="container-left timeline-white">
-        <div class="timeline-content">
+      <div class="container-left timeline-white flex-box-columns">
+        <div class="timeline-content flex-row">
           <i class="fa fa-paper-plane header-icon" aria-hidden="true"></i>
-          <h3>Vagabond</h3>
-          <p>Stuff</p>
-          
+          <h3>Vagabond</h3><br>
+          <h4>@<a href="http://www.wanderbydesign.co/about-us/">wanderbydesign.co</a></h4>
+          <p>
+            I spent ~7 months travelling around South America, Europe, and Japan, 
+            conversing with locals and other travellers in order to pass the
+            time, develop long-lasting connections, and witness the
+            differing backgrounds and values we all have
+            <!--Conversed with locals and other travellers to pass the
+            time, develop long-lasting connections, and witness the
+            differing backgrounds and values we all have
+            Self-hosted, developed custom front end design, and
+            copywrote for my shared personal travel blog,
+            wanderbydesign.co-->
+          </p>
+          <!--<p>
+            During this time, I also self-hosted, developed custom front end design, and
+            copywrote for a shared personal travel blog,
+            <a href="http://www.wanderbydesign.co/about-us/">wanderbydesign.co</a>
+          </p>-->
+        </div>
+        <div class="timeline-content flex-row">
           <i class="fa fa-briefcase header-icon" aria-hidden="true"></i>
-          <h3>Technical Services</h3>
-          <p>@<a href='http://www.epic.com/'>Epic Systems</a></p>
-          <p>Stuff 2</p>
-          
+          <h3>Technical Services</h3><br>
+          <h4>@<a href='http://www.epic.com/'>Epic Systems</a></h4>
+          <p>
+            I served as the primary contact and dedicated customer support for three
+            major healthcare organizations' outpatient software in both the United States and the Netherlands
+          </p>
+        </div>
+        <div class="timeline-content flex-row">
           <i class="fa fa-graduation-cap header-icon" aria-hidden="true"></i>
           <h3>Bachelor's of Arts</h3><br>
-          <h4>Economics and Asian Studies</h4>
-          <p>@<a href='http://wp.stolaf.edu/'>St. Olaf College</a></p>
+          <h4>Economics and Asian Studies</h4><br>
+          <h4>@<a href='http://wp.stolaf.edu/'>St. Olaf College</a></h4>
+          <p>
+            Throughout my career at St. Olaf, I studied internationally three separate times, 
+            led or co-led three organizations, and worked in food service on our campus for four years
+          </p>
           
         </div>
       </div>
@@ -169,11 +199,11 @@
         </nav>
       </div>
       <!-- right side (no color) -->
-      <div class="container-right contact-white">
-        <div class="contact-blurb">
+      <div class="container-right contact-white flex-box-columns">
+        <div class="contact-blurb flex-row">
               
         </div>
-        <div class="contact-methods">
+        <div class="contact-methods flex-row">
           <!-- current address -->
           <div class="contact-single-method">
             <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
@@ -194,11 +224,11 @@
           </div>
         </div>
         
-        <div class="contact form">
+        <div class="contact form flex-row">
           
         </div>
           
-        <div class="contact-social-icons">
+        <div class="contact-social-icons flex-row">
           <ul class="fa-ul">
             <li>
               <a href="#">
