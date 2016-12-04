@@ -1078,8 +1078,9 @@ nav>ul li {
 }
 
 .contact-white a {
-	color: #404040 !important;
+	color: #404040;
 }
+
 .about-white h1,h2,h3,h4 {
 	display: inline-block;
 }
@@ -1099,9 +1100,21 @@ nav>ul li {
 .about-resume {
 	width: 100%;
 	text-align: center;
+	-webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  
+
 }
 
-.about-resume a:hover {
+.about-resume i {
+	-webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.about-resume i:hover {
 	text-shadow: 0px 0px 10px rgba(80,80,80,1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -1179,14 +1192,69 @@ nav>ul li {
 	display: inline-block;
 	left: 0;
 	right: 0;
-	text-align: left;
+	//text-align: left;
 }
 
 .contact-methods {
 	display: inline-block;
 	left: 0;
 	right: 0;
+	//text-align: left;
+}
+
+#contact {
 	text-align: left;
+	width: 100%;
+}
+
+.flex-box-stretch {
+	align-items: stretch;
+}
+
+#contact a > p {
+	color: #1976D2;
+	-webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+}
+#contact a {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+#contact a:hover {
+	font-weight: 700;
+	
+}
+
+.contact-social-icons i {
+	-webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+
+}
+
+.contact-social-icons i:hover {
+	text-shadow: 0px 0px 10px rgba(80,80,80,1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+#contact p {
+	font-size: 1.7em;
+	line-height: 1.5em;
+	margin: 0.5em 0;
+	
+}
+
+#contact h3 {
+	line-height: 1.75em;
 }
 
 .contact-methods p{
@@ -1204,14 +1272,23 @@ nav>ul li {
 	display: inline-block;
 	left: 0;
 	right: 0;
-	text-align: left;
+	width: 100%;
 }
 .contact-social-icons p {
 	display: inline-block;
+	margin: 0;
 }
 
 .wrapper .nav-links a {
 	font-weight: 400;
+}
+
+.contact-social-icons ul {
+	margin: 0;
+}
+
+.contact-social-icons li {
+	margin: 0 12px;
 }
 
 .fa {
@@ -1221,7 +1298,7 @@ nav>ul li {
 
 
 .header-icon {
-	font-size: 1.6em !important;
+	font-size: 1.7em !important;
 }
 .header-icon-small {
 	font-size: 1.3em !important;
@@ -1232,6 +1309,11 @@ nav>ul li {
 }
 .text-icon-large {
 	font-size: 1.3em !important;
+}
+
+.contact-social-icons li {
+	margin: 0 5%;
+	display: inline-block;
 }
 
 .inline-block {
