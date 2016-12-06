@@ -1,3 +1,8 @@
+
+
+var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+
+if (!isMobile){
 $(document).ready(function() {
   $(".main").onepage_scroll({
    sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
@@ -15,6 +20,8 @@ $(document).ready(function() {
                                     // the browser's width is less than 600, the fallback will kick in.
    direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
   });
+
+
   //var arrow = document.getElementsByClassName(nav-arrow);
   //arrow.addEventListener("hover")
   var homeDownArrow = document.getElementById('home-down-arrow');
@@ -26,4 +33,4 @@ $(document).ready(function() {
   var contactUpArrow = document.getElementById('contact-up-arrow');
   contactUpArrow.addEventListener("click", function() {$.fn.moveTo(1)}, false);
 
-});
+});}
