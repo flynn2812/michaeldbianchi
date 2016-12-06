@@ -822,6 +822,7 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
+@media (min-width: 805px) {}//This is where current text becomes unreadable
 
 
 /* Custom */
@@ -971,6 +972,7 @@ nav>ul li {
 
 #header {
 	background-image: image-url("green_hair.jpg");
+	background-size: cover;
 	position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
