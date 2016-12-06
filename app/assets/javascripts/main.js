@@ -1,8 +1,8 @@
 
 
-var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+//var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
 
-if (!isMobile){
+//if (!isMobile){
 $(document).ready(function() {
   $(".main").onepage_scroll({
    sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
@@ -33,4 +33,5 @@ $(document).ready(function() {
   var contactUpArrow = document.getElementById('contact-up-arrow');
   contactUpArrow.addEventListener("click", function() {$.fn.moveTo(1)}, false);
 
-});}
+});
+//}
