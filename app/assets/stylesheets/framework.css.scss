@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
   font-weight: 300; 
   clear: both;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Play', sans-serif;
 }
 
 
@@ -988,11 +988,11 @@ nav>ul li {
 	right: 0;
 	margin: 0 auto;
 	top: 20%;
-	text-shadow: 0px 0px 5px rgba(80,80,80,1);
+	text-shadow: 3px 3px 6px rgba(80,80,80,1);
 	/*text-shadow: 2px 2px #666666;*/
 }
 .header-name h1 {
-	font-size: 5rem;
+	font-size: 6rem;
 }
 
 
@@ -1127,11 +1127,11 @@ nav>ul li {
 }*/
 
 #about p {
-	font-size: 1.7em;
+	font-size: 1.5em;
 	font-weight: 300;
 	line-height: 1.5em;
 	margin-bottom: 0.8em;
-	margin-left: 12px;
+	margin-left: 26px;
 }
 
 #about h3 {
@@ -1160,7 +1160,6 @@ nav>ul li {
 .timeline-content a {
 	color: #1976D2;
 	text-shadow: none;
-	padding-left: 2px;
 }
 
 .timeline-content h1,h2,h3,h4 {
@@ -1169,11 +1168,11 @@ nav>ul li {
 }
 
 #timeline p {
-	font-size: 1.7em;
+	font-size: 1.5em;
 	font-weight: 300;
 	line-height: 1.5em;
 	margin-bottom: 0.8em;
-	margin-left: 12px;
+	margin-left: 26px;
 }
 
 #timeline h3 {
@@ -1182,6 +1181,7 @@ nav>ul li {
 
 #timeline h4 {
 	margin-bottom: 0.4em;
+	margin-left: 26px;
 }
 
 .contact-blurb {
@@ -1243,7 +1243,7 @@ nav>ul li {
 
 
 #contact p {
-	font-size: 1.7em;
+	font-size: 1.5em;
 	line-height: 1.5em;
 	margin: 0.5em 0;
 	
@@ -1320,6 +1320,7 @@ nav>ul li {
 
 .header-icon {
 	font-size: 1.7em !important;
+	width: 17px;
 }
 .header-icon-small {
 	font-size: 1.3em !important;
